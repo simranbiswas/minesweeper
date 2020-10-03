@@ -28,10 +28,10 @@ function gameOver(isWin) {
     let message = null;
     let icon = null;
     if (isWin) {
-        message = 'Hurray YOU WON!';
+        message = 'HURRAY YOU WON!';
         icon = 'fa fa-flag';
     } else {
-        message = 'Oops YOU LOST!';
+        message = 'OOPS YOU LOST!';
         icon = 'fa fa-bomb';
     }
     $('.col.mine').append(
